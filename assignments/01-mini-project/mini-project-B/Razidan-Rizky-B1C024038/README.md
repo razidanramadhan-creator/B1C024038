@@ -1,7 +1,9 @@
 Logistic Regression menunjukkan performa klasifikasi yang sangat baik dengan nilai akurasi sebesar 98,25%. Nilai precision dan recall yang sama-sama mencapai 97,62% menunjukkan bahwa algoritma ini memiliki kemampuan yang baik dalam mengidentifikasi kanker ganas sekaligus meminimalkan kesalahan prediksi. Selain itu, hanya terdapat satu kasus false negative, sehingga sebagian besar kasus kanker ganas berhasil terdeteksi.
 <img width="571" height="470" alt="Logistic Regression Razidan" src="https://github.com/user-attachments/assets/36809794-a195-4b81-b8b7-b941b1be494b" />
+
 Sedangkan pada Alogoritma Random Forest Classifier menghasilkan akurasi sebesar 93,57%. Nilai precision sebesar 92,06% menunjukkan bahwa sebagian besar prediksi kanker ganas yang dihasilkan algoritma ini memang benar merupakan kanker ganas. Sementara itu, nilai recall sebesar 90,63% menunjukkan bahwa algoritma mampu mendeteksi sekitar 90,63% dari seluruh kasus kanker ganas. Namun, terdapat enam kasus false negative, yaitu kanker ganas yang justru diklasifikasikan sebagai jinak. Hal ini perlu diperhatikan karena kesalahan tersebut berpotensi menyebabkan kasus kanker ganas tidak teridentifikasi.
 <img width="579" height="470" alt="Random Forest Classifier Razidan" src="https://github.com/user-attachments/assets/6b00488b-b268-499b-93f7-b496c2a34ca5" />
+
 Analisis dari perbandingan 2 algoritma tersebut adalah 
 1. Accuracy: Logistic Regression memperoleh akurasi 98,25%, lebih tinggi dibandingkan Random Forest sebesar 93,57%. Artinya, berdasarkan hasil pengujian yang ditampilkan, Logistic Regression memiliki proporsi prediksi benar yang lebih tinggi.
 
